@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- 記載番号：2 -->
+    <title>FURIMA（フリマアプリ）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body class="p-work">
+    <header id="header" class="header">
+      <div class="header__logo">
+          <h1>
+            <a href="../">
+              <!-- 記載番号：1 -->
+              <span class="header__logo-title">Yamakami Saki</span>
+              <span class="header__logo-sub">Portfolio</span>
+            </a>
+          </h1>
+        </div>
+        <div class="header__hamburger">
+          <i></i>
+        </div>
+        <nav class="header__gnav">
+          <ul class="header__gnav-list">
+            <li class="header__gnav-item"><a href="../#a-profile">PROFILE</a></li>
+            <li class="header__gnav-item"><a href="../#a-skill">SKILL</a></li>
+            <li class="header__gnav-item"><a href="../#a-works">WORKS</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+      <section class="p-work-firstview">
+        <div class="section-inner">
+          <!-- 記載番号：2（記載番号2は5行目にもあるので気をつけてください） -->
+          <h2>FURIMA（フリマアプリ）</h2>
+          <div class="p-work-firstview__pict obj-fit-img">
+            <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+            <img src="../images/work/01/pict-work01-firstview_pc.jpg" class="show-pc">
+            <!-- images/01に配置した、FURIMAの画像（SP版）のパスを記載する -->
+            <img src="../images/work/01/pict-work01-firstview_sp.jpg" class="show-sp">
+          </div>
+          <div class="p-work-firstview__text-area">
+            <h3 class="p-work-firstview__text-titile">開発環境</h3>
+            <!-- 記載番号：3 -->
+            <p class="p-work-firstview__text">Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+            <!-- 記載番号：4 -->
+            <p class="p-work-firstview__text-link"><a href="https://github.com/yamakamisaki/furima-37861" target="_blank">https://github.com/yamakamisaki/furima-37861</a></p>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-summary">
+        <div class="section-inner">
+          <ul class="p-work-summary__list">
+            <li class="p-work-summary__item">
+              <h3>概要</h3>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>制作時間</th>
+                  <!-- 記載番号：5 -->
+                  <td>32時間(バックエンドのみ作成)</td>
+                </tr>
+                <tr>
+                  <th>URL</th>
+                  <!-- 記載番号：6 -->
+                  <td><a href="https://furima-37861.herokuapp.com/" target="_blank">https://furima-37861.herokuapp.com/</a></td>
+                </tr>
+                <tr>
+                  <th>ID</th>
+                  <!-- 記載番号：7 -->
+                  <td>frmappname</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：8 -->
+                  <td>08642</td>
+                </tr>
+              </table>
+            </li>
+            <li class="p-work-summary__item">
+              <h3>動作テスト</h3>
+              <h4>購入テスト用アカウント</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>mail</th>
+                  <!-- 記載番号：9 -->
+                  <td>test@co.jp</td>
+                </tr>
+                <tr>
+                  <th>PASS</th>
+                  <!-- 記載番号：10 -->
+                  <td>123456a</td>
+                </tr>
+              </table>
+              <h4>購入テスト用カード情報</h4>
+              <table class="p-work-summary__item-table">
+                <tr>
+                  <th>番号</th>
+                  <!-- 記載番号：11 -->
+                  <td>4242424242424242</td>
+                </tr>
+                <tr>
+                  <th>期限</th>
+                  <!-- 記載番号：12 -->
+                  <td>12/24</td>
+                </tr>
+                <tr>
+                  <th>CVC</th>
+                  <!-- 記載番号：13 -->
+                  <td>123</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-outline">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OUTLINE<span>アプリケーションの概要</span></h2>
+          </div>
+          <div class="contents">
+            <!-- 記載番号：14 -->
+            <div class="p-work-outline__text">
+              <p>
+                プログラミングスクールの最終課題制作としてフリーマーケットのアプリケーションを作成しました。(バックエンドのみ作成)
+                <br>
+                ユーザーを登録すると商品を出品できるようになります。自身が出品した商品は、編集と削除をすることができます。他のユーザーが出品した商品は、クレジットカードを用いて購入することができます。
+              </p>
+              <p>
+                クレジットカード購入機能については、PAY.JPが提供しているAPIを使用しています。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-work-about">
+        <div class="section-inner">
+          <ul class="p-work-about__list">
+            <li class="p-work-about__item">
+              <h3>開発で工夫した点</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/01に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/01/pict-work01-about-dammy.jpg">
+                </div>
+                <!-- 記載番号：15 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    初めにタイムスケジュールを作成し、実装したい機能のタスクを細分化や1機能当たりの目安時間を明確に決めてから開始しました。
+                    <br><br>
+                    現状の知識の理解度を認識するため、目安時間と実際にかかった時間の相違を記録。理解度が足りず時間がかかってしまった機能はカリキュラムで再復習して知識の定着化に繋げました。頻出する流れや打ち間違えやすいコードに関しては、ミスを防ぐためQiitaなどの記事でアウトプットしたり、メモアプリにまとめていきました。
+                    <br><br>
+                    その結果エラーが出た際にも、エラー箇所の予想がしやすくなったり、解決のための検証するべき場所の幅が広がりました。今後も現状を確認しながら、不足している知識のインプットやアウトプットを大切にしていきたいと思います。
+                    </p>
+                </div>
+              </div>
+            </li>
+            <li class="p-work-about__item">
+              <h3>開発で苦労した点</h3>
+              <div class="p-work-about__item-block p-work-about__item-block-2column">
+                <div class="p-work-about__item-block-pict obj-fit-img">
+                  <!-- images/01に配置した、記載内容を表す画像のパスを記載する -->
+                  <img src="../images/work/01/pict-work01-about-dammy2.jpg">
+                </div>
+                <!-- 記載番号：16 -->
+                <div class="p-work-about__item-block-text">
+                  <p>
+                    Formオブジェクトパターンで、1つのフォームから複数のテーブルに情報を保存する実装に苦労しました。
+                    <br><br>
+                    具体的には保存したいデータのバリデーションの記載方法について工夫が必要でした。フォームから送信された時点では保存したいデータが含まれておらず、フォーム全体のデータを保存することが難しい状態でした。
+                    <br><br>
+                    そこで保存したいデータがどの時点で作られている必要があるか再度見直し、適正な箇所にメソッドを作成することで解決につながりました。
+                    行いたい処理を明確にし、基礎となる考え方を見直すことの重要性を再認識することができました。                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="p-work-others">
+        <div class="section-inner">
+          <div class="heading">
+            <h2>OTHERS<span>その他実績</span></h2>
+          </div>
+          <div class="contents">
+            <ul class="p-work-others__list">
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/01に配置した、FURIMAの画像（PC版）のパスを記載する -->
+                  <a href="01.html" style="background-image:url('../images/work/01/pict-work01-firstview_pc.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：15 -->
+                  <h3>FURIMA
+                  <br>（フリマアプリ）</h3>
+                  <!-- 記載番号：16 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="01.html" class="button">More</a>
+                </div>
+              </li>
+              <li class="p-work-others__item">
+                <div class="p-work-others__item-pict">
+                  <!-- images/02に配置した、オリジナルアプリの画像（PC版）のパスを記載する -->
+                  <a href="02.html" style="background-image:url('../images/work/02/pict-work02-firstview_pc.jpg');"></a>
+                </div>
+                <div class="p-work-others__item-text-block">
+                  <!-- 記載番号：17 -->
+                  <h3> Little Artist
+                  <br>（子どもの作品管理・シェアアプリ）</h3>
+                  <!-- 記載番号：18 -->
+                  <p>Ruby / Ruby on Rails / MySQL / GitHub / Heroku / Visual Studio Code</p>
+                </div>
+                <div class="p-work-others__item-btn-block">
+                  <a href="02.html" class="button">More</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- 記載番号：1 -->
+    <footer id="footer" class="footer"><p>&copy; Yamakami Saki.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/ofi.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+  </body>
+</html>
